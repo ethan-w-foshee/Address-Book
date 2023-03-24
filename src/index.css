@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #768692;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  align-self: center;
+  justify-content: center;
+}
+
+li {
+  width: fit-content;
+  align-self: center;
+  justify-content: center;
+}
+
+ul li h1, ul li p {
+  background-color: #DEB29E;
+  width: 106%;
+  border: #918A6E 5px;
+  border-radius: 1.5ch;
+  padding-left: .5ch;
+}
+
+ul li img {
+  align-self: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #91837D;
+  color: #B4CCDE;
+}
